@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "jsx": "react-native",
+    "declaration": true,
+    "declarationMap": true,
+    "target": "esnext",
+    "outDir": "dist",
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
