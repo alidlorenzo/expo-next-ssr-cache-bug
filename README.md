@@ -16,4 +16,4 @@ yarn install
 yarn start 
 ```
 
-Go to localhost:3000 and when page renders you'll see a green box that flickers. Those components are provided by `plugin` and does there are SSR cache conflicts causing them to be resolved by a distinct instance and not be rendered by the server.
+Go to localhost:3000 and when page renders you'll see a green box that flickers. Those components are provided by `plugin` package and there are SSR cache conflicts causing them to be resolved by a distinct bundle/node_module instance and not be rendered by the server.
